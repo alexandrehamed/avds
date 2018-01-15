@@ -11,3 +11,15 @@
    </head>
 <body>
 
+<nav id="navbar">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 center"> <h1>test</h1></div>
+        <div class="col-2 center"> <h1>test</h1></div>
+        <div class="col-2 center"> <h1>test</h1></div>
+        <div class="col-2 center"> <h1>test</h1></div>
+        <div class="col-2 center"> <h1>test</h1></div>
+        <div class="col-2 center"> <h1>test</h1></div>
+    </div>
+</div>
+</nav>
