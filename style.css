@@ -46,3 +46,37 @@ border: solid 4px black;
 #container_icone img{
 padding-bottom: 20px;
 }
+
+/* Section */
+
+#section1 {
+    background-image: url("images/bg1.png");
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+
+#section1h1h3 {
+    background-color: rgba(211,211,211,0.8);
+    border-radius: 100px;
+    padding: 30px;
+
+}
+
+#section1 h1 {
+    font-size: 52px;
+    color: rgb(234, 133, 57)
+}
+#section1 h3 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+#section1 h4 {
+    padding: 15px;
+    border-radius: 100px;
+    background-color: rgb(94,94,94);
+    color: rgb(234, 133, 57) ;
+}
+
+
