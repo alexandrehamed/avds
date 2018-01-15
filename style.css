@@ -1,21 +1,46 @@
 .center{text-align: center}
 
+/*navbar*/
 
-/*Qui sommes*/
+#navbar{
+border: solid 4px black;
+}
+/*Qui sommes nous*/
 #about{
-    background-color: white;
+    background-color: black;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+#about_texte{
+    background-color: #D6D5D5;
+    background: rgba(146, 149, 155,0.5)    /* 70% opaque red */;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#about_texte p {
+    color: white;
+}
+
+#about_texte h3 {
+    color: #ee883c;
+}
 
 #container_icone{
+    margin-top: 30px;
     padding-top: 50px;
     width: 100%;
-    background-color: #D6D5D5;
-    border: solid 2px #D6D5D5;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;;
+
+}
+#garantie{
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#container_icone p{
+    color: white;
 }
 
 #container_icone img{
