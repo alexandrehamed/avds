@@ -3,7 +3,7 @@
 
 <!--Slide 2 Qui sommes nous ? -->
 <section id="section1">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-8 mx-auto" id="section1h1h3">
 
@@ -13,11 +13,12 @@
 
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
-                <div class="col-3 offset-md-2">
-                    <h4> Tous nos véhicules </h4>
-                </div>
+                    <div class="col-md-3  ml-auto col-xs-12 ">
+                        <button type="button" id="section1button" class="btn btn-secondary">Tous nos véhicules</button>
+                    </div>
             </div>
         </div>
     </div>
