@@ -1,6 +1,9 @@
-.center{text-align: center}
 
-/*navbar*/
+
+
+    .center {
+        text-align: center
+    }
 
 #navbar_custom{
 border: solid 4px rgba(255, 255, 255,1);
@@ -57,25 +60,91 @@ border: solid 4px rgba(255, 255, 255,1);
     color: white;
 }
 
-#about_texte h3 {
-    color: #ee883c;
+
+    /*navbar*/
+    #navbar {
+        border: solid 4px black;
+    }
+
+    /*Qui sommes nous*/
+    #about {
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #about_texte {
+        background-color: #D6D5D5;
+        background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #about_texte p {
+        color: white;
+    }
+
+    #about_texte h3 {
+        color: #ee883c;
+    }
+
+    #container_icone {
+        margin-top: 30px;
+        padding-top: 50px;
+        width: 100%;
+
+    }
+
+    #garantie {
+        color: white;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+
+    #container_icone p {
+        color: white;
+    }
+
+
+    /* Section */
+    #section1 {
+        background-image: url("images/bg1.png");
+        padding-top: 250px;
+        padding-bottom: 300px;
+    }
+
+    @media screen and (max-width: 2400px) {
+
+    #section1h1h3 {
+        background-color: rgba(211, 211, 211, 0.8);
+        border-radius: 100px;
+        padding: 30px;
+
+    }
+
+    #section1 h1 {
+        font-size: 52px;
+        color: rgb(234, 133, 57)
+    }
+
+    #section1 h3 {
+        color: white;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #section1button {
+        border-radius: 100px;
+        background-color: rgb(94, 94, 94);
+        color: rgb(234, 133, 57);
+
+    }
 }
 
-#container_icone{
-    margin-top: 30px;
-    padding-top: 50px;
-    width: 100%;
 
-}
-#garantie{
-    color: white;
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-#container_icone p{
-    color: white;
-}
 
 #container_icone img{
 padding-bottom: 20px;
@@ -160,3 +229,4 @@ margin-bottom: 45px;
     }
 
 }
+
