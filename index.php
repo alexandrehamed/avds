@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<!--Slide 2 Qui sommes nous ? -->
+<!-- ************** ACCUEIL **************** -->
 <section id="section1">
     <div class="container-fluid">
         <div class="row">
@@ -25,6 +25,7 @@
 
 </section>
 
+<!-- ************** ABOUT  **************** -->
 
 <section id="about">
     <div class="container">
@@ -69,6 +70,7 @@
     </div>
 </section>
 
+<!-- ************** PARTENAIRES **************** -->
 
 <section id="partenaires">
     <div class="container">
@@ -121,6 +123,41 @@
     </div>
 
 </section>
+
+<!-- ************** VEHICULES PROPRES **************** -->
+
+<section id="vpropresec">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 ml-auto">
+                <button> Acheter un véhicule</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6 mx-auto" id="vproprediv">
+                <div class="col-12">
+                <h2>Véhicules propres</h2>
+                <p>Faites un geste pour l’environnement et
+                    passez au vert ! <br><br>
+                    Nous proposons une gamme complète de
+                    voitures propres. Hybrides ou électriques,
+                    profitez d’un large choix de véhicule avec
+                    faible émissions de co2, particules et
+                    bénéficiez des conseils de nos experts. <br><br>
+                    N’oubliez pas que d’ici une dizaine d’années
+                    il y a de grandes chances de ne voir plus que
+                    ce type de voiture</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ************** CONTACT FORM **************** -->
 
 <section id="contactform">
     <div class="container">
