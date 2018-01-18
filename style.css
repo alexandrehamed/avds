@@ -111,7 +111,7 @@
     color: white;
 }
 
-/* Section */
+/*************** SECTION ACCUEIL **************/
 #section1 {
     background-image: url("images/bg1.png");
     padding-top: 250px;
@@ -228,6 +228,7 @@
     }
 
 }
+/*************** FORM SECTION *****************/
 
 #contactform {
     padding-top: 100px;
@@ -258,6 +259,8 @@
     }
 
 }
+
+/***************** FOOTER ******************/
 
 footer {
     background-color: lightgray;
