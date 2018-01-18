@@ -40,7 +40,7 @@
                         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                     </button>
                 </nav>
+
         </div>
     </div>
-</div>
 </nav>
