@@ -264,6 +264,17 @@
 
 }
 
+@media screen and (max-width: 700px) {
+    #vpropresec button {
+
+
+        border-radius:50px;
+
+
+    }
+
+}
+
 
 /*************** FORM SECTION *****************/
 
