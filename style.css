@@ -114,6 +114,7 @@
 /*************** SECTION ACCUEIL **************/
 #section1 {
     background-image: url("images/bg1.png");
+    background-position: center;
     padding-top: 250px;
     padding-bottom: 300px;
 }
@@ -228,6 +229,85 @@
     }
 
 }
+
+.vehicules button {
+    background-color: #4c4a4a;
+    color: #ee883c;
+    border: solid 1px #4c4a4a;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.vehicules img {
+
+    height: 60px;
+    width: auto;
+}
+
+.rond_vehicule {
+
+}
+
+/*slider*/
+#cars {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+#cars h2 {
+    color: #ee883c;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.info p {
+    margin-top: 20px;
+    font-size: 26px;
+    color: #D6D5D5;
+}
+
+.arrow_slider {
+    height: 60px;
+    width: auto;
+}
+
+#btn_cars button {
+    background-color: #4c4a4a;
+    color: #ee883c;
+    border: solid 1px #4c4a4a;
+    border-radius: 25px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+#btn_cars img {
+    height: 30px;
+    width: auto;
+
+}
+
+/*véhicule btn*/
+
+.vehicules {
+    background-color: red;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+
 /*************** VEHICULES PROPRES *****************/
 #vpropresec {
     padding-top: 150px;
@@ -237,9 +317,9 @@
 
 #vproprediv {
     background-color: lightgray;
-    padding-top: 20px ;
+    padding-top: 20px;
     padding-bottom: 40px;
-    padding-left:  40px;
+    padding-left: 40px;
     padding-right: 40px;
 }
 
@@ -256,7 +336,7 @@
 }
 
 #vpropresec button {
-    color:rgb(60, 197, 238);
+    color: rgb(60, 197, 238);
     background-color: gray;
     border-radius: 100px;
     padding: 12px;
@@ -267,17 +347,12 @@
 @media screen and (max-width: 700px) {
     #vpropresec button {
 
-
-        border-radius:50px;
-
+        border-radius: 50px;
 
     }
-
 }
 
-
 /*************** FORM SECTION *****************/
-
 #contactform {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -309,7 +384,6 @@
 }
 
 /***************** FOOTER ******************/
-
 footer {
     background-color: lightgray;
     padding-top: 40px;
@@ -338,7 +412,6 @@ footer p {
     footer a {
         font-size: 15px;
 
-
     }
 
     footer p {
@@ -350,16 +423,14 @@ footer p {
     }
 }
 
-@media only screen and (max-width:320px)  {
+@media only screen and (max-width: 320px) {
     footer a {
         font-size: 15px;
-
 
     }
 
     footer p {
         font-size: 18px;
     }
-
 
 }

@@ -124,6 +124,183 @@
 
 </section>
 
+
+<section class="vehicules">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 center">
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 center">
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="cars">
+    <div class="container">
+        <div class="row center">
+            <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
+                    <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img src="<?php echo get_template_directory_uri();?>/images/arrows.png"></button>
+        </div>
+    </div>
+    </div>
+    <h2 class="center">Véhicules d'occasions</h2>
+    <br>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col-md-5 offset-1">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col-md-5 offset-1">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col-md-5 offset-1">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rond-gris">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <h3>Les sous-traitants</h3>
+                                    </div>
+
+                                    <div class="row" style="text-align: justify">
+                                        <div class="col-10 offset-2 info">
+                                            <p><strong>Année </strong>: 2015</p>
+                                            <p><strong> Kilométrage </strong>: 86 987km</p>
+                                            <p><strong> Prix </strong>: 10 000 €</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"><img src="<?php echo get_template_directory_uri()?>/images/arrows_left.png" class="arrow_slider"> </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><img src="<?php echo get_template_directory_uri()?>/images/arrows.png" class="arrow_slider"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div></section>
+
 <!-- ************** VEHICULES PROPRES **************** -->
 
 <section id="vpropresec">
@@ -139,17 +316,17 @@
         <div class="row">
             <div class="col-6 mx-auto" id="vproprediv">
                 <div class="col-12">
-                <h2>Véhicules propres</h2>
-                <p>Faites un geste pour l’environnement et
-                    passez au vert ! <br><br>
-                    Nous proposons une gamme complète de
-                    voitures propres. Hybrides ou électriques,
-                    profitez d’un large choix de véhicule avec
-                    faible émissions de co2, particules et
-                    bénéficiez des conseils de nos experts. <br><br>
-                    N’oubliez pas que d’ici une dizaine d’années
-                    il y a de grandes chances de ne voir plus que
-                    ce type de voiture</p>
+                    <h2>Véhicules propres</h2>
+                    <p>Faites un geste pour l’environnement et
+                        passez au vert ! <br><br>
+                        Nous proposons une gamme complète de
+                        voitures propres. Hybrides ou électriques,
+                        profitez d’un large choix de véhicule avec
+                        faible émissions de co2, particules et
+                        bénéficiez des conseils de nos experts. <br><br>
+                        N’oubliez pas que d’ici une dizaine d’années
+                        il y a de grandes chances de ne voir plus que
+                        ce type de voiture</p>
                 </div>
             </div>
         </div>
@@ -202,5 +379,7 @@
         </div>
     </div>
 </section>
-<?php get_footer(); ?>
+
+<?php get_footer();?>
+
 
