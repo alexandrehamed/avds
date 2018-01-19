@@ -1,13 +1,11 @@
 
+.center {
+    text-align: center
+}
 
-
-    .center {
-        text-align: center
-    }
-
-#navbar_custom{
-border: solid 4px rgba(255, 255, 255,1);
-    background-color: rgba(0, 0, 0,1);
+#navbar_custom {
+    border: solid 4px rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
     padding-top: 10px;
     margin-top: 20px;
 }
@@ -19,104 +17,108 @@ border: solid 4px rgba(255, 255, 255,1);
 
 }
 
-#navbar_custom .responsive-nav{
+#navbar_custom .responsive-nav {
     display: none;
 }
+
 /*navbar responsive*/
-.navbar-toggler i{
+.navbar-toggler i {
     color: white;
 }
-.p-4 li{
+
+.p-4 li {
     list-style: none
 }
 
-.p-4 p{
+.p-4 p {
     margin-bottom: 4px;
 }
-@media  screen and (max-width: 962px) {
-    #navbar_custom .full-nav{
+
+@media screen and (max-width: 962px) {
+    #navbar_custom .full-nav {
         display: none;
     }
-    #navbar_custom .responsive-nav{
+
+    #navbar_custom .responsive-nav {
         display: block;
     }
-    
+
 }
+
 /*Qui sommes nous*/
-#about{
+#about {
     background-color: black;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#about_texte{
+
+#about_texte {
     background-color: #D6D5D5;
-    background: rgba(146, 149, 155,0.5)    /* 70% opaque red */;
+    background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
 }
+
 #about_texte p {
     color: white;
 }
 
+/*navbar*/
+#navbar {
+    border: solid 4px black;
+}
 
-    /*navbar*/
-    #navbar {
-        border: solid 4px black;
-    }
+/*Qui sommes nous*/
+#about {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-    /*Qui sommes nous*/
-    #about {
-        background-color: black;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#about_texte {
+    background-color: #D6D5D5;
+    background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
-    #about_texte {
-        background-color: #D6D5D5;
-        background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+#about_texte p {
+    color: white;
+}
 
-    #about_texte p {
-        color: white;
-    }
+#about_texte h3 {
+    color: #ee883c;
+}
 
-    #about_texte h3 {
-        color: #ee883c;
-    }
+#container_icone {
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 100%;
 
-    #container_icone {
-        margin-top: 30px;
-        padding-top: 50px;
-        width: 100%;
+}
 
-    }
+#garantie {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+}
 
-    #garantie {
-        color: white;
-        margin-top: 30px;
-        font-size: 40px;
-    }
+#container_icone p {
+    color: white;
+}
 
+/*************** SECTION ACCUEIL **************/
+#section1 {
+    background-image: url("images/bg1.png");
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
 
-    #container_icone p {
-        color: white;
-    }
-
-
-    /* Section */
-    #section1 {
-        background-image: url("images/bg1.png");
-        padding-top: 250px;
-        padding-bottom: 300px;
-    }
-
-    @media screen and (max-width: 2400px) {
+@media screen and (max-width: 2400px) {
 
     #section1h1h3 {
         background-color: rgba(211, 211, 211, 0.8);
@@ -144,92 +146,111 @@ border: solid 4px rgba(255, 255, 255,1);
     }
 }
 
-
-
-#container_icone img{
-padding-bottom: 20px;
+#container_icone img {
+    padding-bottom: 20px;
     height: 133px;
 }
 
-
 /*Les partenaires*/
 
-#partenaires{
+#partenaires {
     background-color: white;
 }
 
-#partenaires h2{
+#partenaires h2 {
     color: #ee883c;
     letter-spacing: 2px;
     margin-top: 60px;
 
 }
 
-.rond-gris{
+.rond-gris {
     border-radius: 50%;
     height: 450px;
-    background-color:  #D6D5D5;
+    background-color: #D6D5D5;
     border: solid 1px #D6D5D5;
     margin-bottom: 20px;
 }
 
-.rond-gris img{
+.rond-gris img {
     height: 150px;
     width: auto;
-    margin-top:100px;
-margin-bottom: 45px;
+    margin-top: 100px;
+    margin-bottom: 45px;
 }
 
-.rond-gris h3{
+.rond-gris h3 {
     color: #ee883c;
 }
 
-.description_partenaire{
+.description_partenaire {
     text-align: justify;
-    color:  #D6D5D5;
+    color: #D6D5D5;
     font-size: 20px;
 }
 
-@media (min-width: 771px) and (max-width: 995px){
-    .rond-gris{
+@media (min-width: 771px) and (max-width: 995px) {
+    .rond-gris {
         height: 250px;
 
     }
 
-    .rond-gris img{
+    .rond-gris img {
         height: 100px;
         width: auto;
-        margin-top:30px;
+        margin-top: 30px;
         margin-bottom: 45px;
     }
 
-    .rond-gris h3{
+    .rond-gris h3 {
         color: #ee883c;
         font-size: 20px;
     }
 
 }
 
-@media (min-width: 0px) and (max-width: 490px){
-    .rond-gris{
+@media (min-width: 0px) and (max-width: 490px) {
+    .rond-gris {
         height: 350px;
 
     }
 
-    .rond-gris img{
+    .rond-gris img {
         height: 120px;
         width: auto;
-        margin-top:70px;
+        margin-top: 70px;
         margin-bottom: 45px;
     }
 
-    .rond-gris h3{
+    .rond-gris h3 {
         color: #ee883c;
         font-size: 20px;
     }
 
 }
+/*************** VEHICULES PROPRES *****************/
+#vpropresec {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("#");
+}
 
+#vproprediv {
+    background-color: lightgray;
+    padding-top: 20px ;
+    padding-bottom: 40px;
+    padding-left:  40px;
+    padding-right: 40px;
+}
+
+#vproprediv h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(60, 197, 238);
+    padding-bottom: 30px;
+}
+
+<<<<<<< HEAD
 
 /*véhicule btn*/
 
@@ -237,10 +258,35 @@ margin-bottom: 45px;
 background-color: red;
     padding-top:150px;
     padding-bottom:100px;
+=======
+#vproprediv p {
+    color: white;
+    font-size: 22px;
+}
+
+#vpropresec button {
+    color:rgb(60, 197, 238);
+    background-color: gray;
+    border-radius: 100px;
+    padding: 12px;
+    margin-bottom: 50px;
+
+}
+
+@media screen and (max-width: 700px) {
+    #vpropresec button {
+
+
+        border-radius:50px;
+
+
+    }
+>>>>>>> rayan
 
 }
 
 
+<<<<<<< HEAD
 .vehicules button{
     background-color: #4c4a4a  ;
     color: #ee883c;
@@ -311,4 +357,92 @@ height: 60px;
 #btn_cars img{
     height: 30px;
     width: auto;
+=======
+/*************** FORM SECTION *****************/
+
+#contactform {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contactform h1 {
+    text-align: center;
+    color: rgb(234, 133, 57);
+}
+
+.btnsubmit {
+    background-color: rgb(234, 133, 57);
+    border-radius: 300%;
+    color: white;
+
+}
+
+#centerbutton {
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    #form1 {
+        padding-left: 150px;
+    }
+
+}
+
+/***************** FOOTER ******************/
+
+footer {
+    background-color: lightgray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: rgb(234, 133, 57);
+    font-size: 20px;
+
+}
+
+footer p {
+    color: rgb(234, 133, 57);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#leftrowfoot {
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 769px) {
+
+    footer a {
+        font-size: 15px;
+
+
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    #leftrowfoot {
+        padding-left: 120px;
+    }
+}
+
+@media only screen and (max-width:320px)  {
+    footer a {
+        font-size: 15px;
+
+
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+
+>>>>>>> rayan
 }
