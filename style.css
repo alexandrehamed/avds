@@ -250,6 +250,14 @@
     padding-bottom: 30px;
 }
 
+
+/*véhicule btn*/
+
+.vehicules {
+            background-color: red;
+            padding-top: 150px;
+            padding-bottom: 100px;
+        }
 #vproprediv p {
     color: white;
     font-size: 22px;
@@ -276,7 +284,77 @@
 }
 
 
-/*************** FORM SECTION *****************/
+.vehicules button{
+    background-color: #4c4a4a  ;
+    color: #ee883c;
+    border: solid 1px #4c4a4a;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.vehicules img{
+
+height: 60px;
+    width: auto;
+}
+
+.rond_vehicule{
+
+}
+
+
+
+
+
+/*slider*/
+#cars{
+    padding-top:50px ;
+    padding-bottom:100px ;
+
+}
+
+#cars h2{
+    color: #ee883c;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+.info p{
+    margin-top: 20px;
+    font-size: 26px;
+    color:#D6D5D5 ;
+}
+
+
+.arrow_slider{
+    height: 60px;
+    width: auto;
+}
+
+#btn_cars button{
+    background-color: #4c4a4a  ;
+    color: #ee883c;
+    border: solid 1px #4c4a4a;
+    border-radius: 25px;
+    font-size: 15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+#btn_cars img {
+    height: 30px;
+    width: auto;
+}/*************** FORM SECTION *****************/
 
 #contactform {
     padding-top: 100px;
@@ -360,6 +438,4 @@ footer p {
     footer p {
         font-size: 18px;
     }
-
-
 }
