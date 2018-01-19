@@ -101,7 +101,7 @@
             </div>
             <div class=" col-md-5 col-sm-12 offset-md-2 rond-gris">
                 <div class="rond-gris">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/viaxel.png" class="img-fluid">
                     <h3>Société Viaxel</h3>
                 </div>
 
@@ -124,18 +124,18 @@
 
 </section>
 
-<section class="vehicules">
+<section id="vehicules">
 
     <div class="container">
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+                <button type="button" class="btn btn-secondary btn_vehicule occas">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+                <button type="button" class="btn btn-secondary btn_vehicule propre">Véhicules Propres &nbsp &nbsp <img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
             </div>
         </div>
     </div>
@@ -157,15 +157,15 @@
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row center">
-                        <div class="col-md-5 offset-1">
+                        <div class="col-md-10 offset-1">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-6">
                                     <div class="rond-gris">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
-
-                                    <div class="row" style="text-align: justify">
+                                </div>
+                                    <div class="col-6" style="text-align: justify">
                                         <div class="col-10 offset-2 info">
                                             <p><strong>Année </strong>: 2015</p>
                                             <p><strong> Kilométrage </strong>: 86 987km</p>
@@ -173,26 +173,6 @@
                                         </div>
 
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5 offset-">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
-                                        <h3>Les sous-traitants</h3>
-                                    </div>
-
-                                    <div class="row" style="text-align: justify">
-                                        <div class="col-10 offset-2 info">
-                                            <p><strong>Année </strong>: 2015</p>
-                                            <p><strong> Kilométrage </strong>: 86 987km</p>
-                                            <p><strong> Prix </strong>: 10 000 €</p>
-                                        </div>
-
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
