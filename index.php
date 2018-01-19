@@ -124,7 +124,6 @@
 
 </section>
 
-
 <section class="vehicules">
 
     <div class="container">
@@ -380,6 +379,8 @@
     </div>
 </section>
 
+
 <?php get_footer();?>
+
 
 
