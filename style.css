@@ -250,15 +250,14 @@
     padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
 
 /*véhicule btn*/
 
-.vehicules{
-background-color: red;
-    padding-top:150px;
-    padding-bottom:100px;
-=======
+.vehicules {
+            background-color: red;
+            padding-top: 150px;
+            padding-bottom: 100px;
+        }
 #vproprediv p {
     color: white;
     font-size: 22px;
@@ -281,12 +280,10 @@ background-color: red;
 
 
     }
->>>>>>> rayan
 
 }
 
 
-<<<<<<< HEAD
 .vehicules button{
     background-color: #4c4a4a  ;
     color: #ee883c;
@@ -354,11 +351,10 @@ height: 60px;
     margin-bottom: 10px;
 }
 
-#btn_cars img{
+#btn_cars img {
     height: 30px;
     width: auto;
-=======
-/*************** FORM SECTION *****************/
+}/*************** FORM SECTION *****************/
 
 #contactform {
     padding-top: 100px;
@@ -442,7 +438,4 @@ footer p {
     footer p {
         font-size: 18px;
     }
-
-
->>>>>>> rayan
 }

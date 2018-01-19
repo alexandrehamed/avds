@@ -124,7 +124,6 @@
 
 </section>
 
-<<<<<<< HEAD
 <section class="vehicules">
 
     <div class="container">
@@ -301,8 +300,6 @@
         </a>
     </div></section>
 
-<?php get_footer();?>
-=======
 <!-- ************** VEHICULES PROPRES **************** -->
 
 <section id="vpropresec">
@@ -382,5 +379,4 @@
     </div>
 </section>
 <?php get_footer(); ?>
->>>>>>> rayan
 
