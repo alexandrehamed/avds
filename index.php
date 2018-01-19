@@ -344,16 +344,16 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
-                <form action="contact.php">
+                <form action="contact.php" method="post">
                     <div class="form-group">
                         <label for="lastname">Nom</label>
-                        <input type="email" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
                                placeholder="Votre nom">
 
                     </div>
                     <div class="form-group">
                         <label for="name">Prénom</label>
-                        <input type="email" class="form-control" name="name" id="name" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp"
                                placeholder="Votre prénom">
 
                     </div>
@@ -378,7 +378,7 @@
                         <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                     </div>
                     <div id="centerbutton">
-                        <button type="submit" class="btn btnsubmit">Envoyer</button>
+                        <button type="submit"  class="btn btnsubmit">Envoyer</button>
                     </div>
                 </form>
             </div>
