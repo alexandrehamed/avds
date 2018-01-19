@@ -367,8 +367,8 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="objet">Objet</label>
-                        <input type="email" class="form-control" name="objet" id="objet" aria-describedby="emailHelp"
+                        <label for="object">Objet</label>
+                        <input type="text" class="form-control" name="object" id="object" aria-describedby="emailHelp"
                                placeholder="Votre prénom">
 
                     </div>
