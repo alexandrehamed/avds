@@ -21,7 +21,7 @@
         <div class="col-2 center"><a href="#"><p>Nos partenaires</p></a></div>
         <div class="col-2 center"><a href="#"><p>Nos véhicules</p></a> </div>
         <div class="col-2 center"><a href="#"><p>Nous contacter</p></a></div>
-        <div class="col-1 offset-md-1 center"><a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true" style="color: white"></i></a> </div>
+        <div class="col-1 offset-md-1 center"><a href="#"><i class="fa fa-object fa-2x" aria-hidden="true" style="color: white"></i></a> </div>
     </div>
     <div class="row responsive-nav ">
         <div class="pos-f-t">
@@ -31,7 +31,7 @@
                     <li><a href="#"><p>Nos partenaires</p></a></li>
                     <li<a href="#"><p>Nos véhicules</p></a>></li>
                     <li><a href="#"><p>Nous contacter</p></a></li>
-                    <li><a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true" style="color: white"></i></a></li>
+                    <li><a href="#"><i class="fa fa-object fa-2x" aria-hidden="true" style="color: white"></i></a></li>
 
                 </div>
             </div>

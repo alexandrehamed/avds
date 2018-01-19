@@ -335,7 +335,7 @@
 
 <!-- ************** CONTACT FORM **************** -->
 
-<section id="contactform">
+<section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
@@ -344,7 +344,7 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
-                <form action="contact.php" method="post">
+                <form action="contact.php" method="post" id="contactForm" novalidate="novalidate">
                     <div class="form-group">
                         <label for="lastname">Nom</label>
                         <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
@@ -377,8 +377,11 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                     </div>
+
+                    <div id="success"></div>
+
                     <div id="centerbutton">
-                        <button type="submit"  class="btn btnsubmit">Envoyer</button>
+                        <button type="submit" id="sendMessageButton" class="btn btnsubmit">Envoyer</button>
                     </div>
                 </form>
             </div>
