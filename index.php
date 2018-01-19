@@ -315,17 +315,17 @@
         <div class="row">
             <div class="col-6 mx-auto" id="vproprediv">
                 <div class="col-12">
-                <h2>Véhicules propres</h2>
-                <p>Faites un geste pour l’environnement et
-                    passez au vert ! <br><br>
-                    Nous proposons une gamme complète de
-                    voitures propres. Hybrides ou électriques,
-                    profitez d’un large choix de véhicule avec
-                    faible émissions de co2, particules et
-                    bénéficiez des conseils de nos experts. <br><br>
-                    N’oubliez pas que d’ici une dizaine d’années
-                    il y a de grandes chances de ne voir plus que
-                    ce type de voiture</p>
+                    <h2>Véhicules propres</h2>
+                    <p>Faites un geste pour l’environnement et
+                        passez au vert ! <br><br>
+                        Nous proposons une gamme complète de
+                        voitures propres. Hybrides ou électriques,
+                        profitez d’un large choix de véhicule avec
+                        faible émissions de co2, particules et
+                        bénéficiez des conseils de nos experts. <br><br>
+                        N’oubliez pas que d’ici une dizaine d’années
+                        il y a de grandes chances de ne voir plus que
+                        ce type de voiture</p>
                 </div>
             </div>
         </div>
@@ -344,22 +344,22 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
-                <form>
+                <form action="contact.php">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Nom</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <label for="lastname">Nom</label>
+                        <input type="email" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
                                placeholder="Votre nom">
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Prénom</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <label for="name">Prénom</label>
+                        <input type="email" class="form-control" name="name" id="name" aria-describedby="emailHelp"
                                placeholder="Votre prénom">
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Adresse mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <label for="email">Adresse mail</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
                                placeholder="Votre adresse mail">
                         <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse
                             mail.
@@ -367,8 +367,15 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleTextarea">Message</label>
-                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                        <label for="objet">Objet</label>
+                        <input type="email" class="form-control" name="objet" id="objet" aria-describedby="emailHelp"
+                               placeholder="Votre prénom">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                     </div>
                     <div id="centerbutton">
                         <button type="submit" class="btn btnsubmit">Envoyer</button>
@@ -378,5 +385,9 @@
         </div>
     </div>
 </section>
-<?php get_footer(); ?>
+
+
+<?php get_footer();?>
+
+
 
