@@ -160,10 +160,8 @@
                         <div class="col-md-10 offset-1">
                             <div class="row">
                                 <div class="col-6">
-                                    <div class="rond-gris">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
-                                        <h3>Les sous-traitants</h3>
-                                    </div>
+                                        <h3>get_the</h3>
                                 </div>
                                     <div class="col-6" style="text-align: justify">
                                         <div class="col-10 offset-2 info">
