@@ -381,7 +381,7 @@
                     <div id="success"></div>
 
                     <div id="centerbutton">
-                        <button type="submit" id="sendMessageButton" class="btn btnsubmit">Envoyer</button>
+                        <button type="submit" id="sendMessageButton" value="Submit" class="btn btnsubmit">Envoyer</button>
                     </div>
                 </form>
             </div>
