@@ -417,12 +417,12 @@
 }
 
 /*************** FORM SECTION *****************/
-#contactform {
+#contact {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-#contactform h1 {
+#contact h1 {
     text-align: center;
     color: rgb(234, 133, 57);
 }
