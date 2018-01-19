@@ -33,7 +33,7 @@
         crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/2353d4322c.js"></script>
 
-<script>
+ <!-- <script>
     $(function() {
 
         $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -111,6 +111,6 @@
     $('#name').focus(function() {
         $('#success').html('');
     });
-</script>
+</script> -->
 </body>
 </html>
