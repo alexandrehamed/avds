@@ -344,46 +344,7 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
-                <form action="send_form_email.php" method="post" name="sentMessage" id="contactForm" novalidate="novalidate">
-                    <div class="form-group">
-                        <label for="lastname">Nom</label>
-                        <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
-                               placeholder="Votre nom">
 
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Prénom</label>
-                        <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp"
-                               placeholder="Votre prénom">
-
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Adresse mail</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
-                               placeholder="Votre adresse mail">
-                        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse
-                            mail.
-                        </small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="object">Objet</label>
-                        <input type="text" class="form-control" name="object" id="object" aria-describedby="emailHelp"
-                               placeholder="Objet">
-
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                    </div>
-
-                    <div id="success"></div>
-
-                    <div id="centerbutton">
-                        <button type="submit" id="sendMessageButton" value="Submit" class="btn btnsubmit">Envoyer</button>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
