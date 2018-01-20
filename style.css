@@ -373,7 +373,13 @@ height: 60px;
 #btn_cars img {
     height: 30px;
     width: auto;
-}/*************** FORM SECTION *****************/
+}
+
+.img_voiture img{
+    height: 300px !important;
+    width: auto !important;
+}
+/*************** FORM SECTION *****************/
 
 #contactform {
     padding-top: 100px;
