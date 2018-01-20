@@ -129,17 +129,26 @@
     <div class="container">
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule occas">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
+                </button>
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule propre">Véhicules Propres &nbsp &nbsp <img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
+                </button>
+
             </div>
         </div>
     </div>
 </section>
+
 
 
 <section id="cars">
@@ -157,7 +166,6 @@
             <?php
             $active = 0;
             $query = new WP_Query( array( 'post_type' => 'voitures', 'post_per_page'=>2, ) );
-
             if ( $query->have_posts() ) : ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
@@ -205,7 +213,6 @@
             <span class="sr-only">Next</span>
         </a>
     </div></section>
-
 <!-- ************** VEHICULES PROPRES **************** -->
 
 <section id="vpropresec">
@@ -250,6 +257,10 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
+                <?php
+                echo do_shortcode('[contact-form-7 id="3" title="Contact form 1"]'); ?>
+
+
 
             </div>
         </div>
@@ -257,7 +268,7 @@
 </section>
 
 
-<?php get_footer();?>
+<?php get_footer(); ?>
 
 
 
