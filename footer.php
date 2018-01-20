@@ -33,7 +33,7 @@
         crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/2353d4322c.js"></script>
 
- <!-- <script>
+  <!-- <script>
     $(function() {
 
         $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -112,5 +112,24 @@
         $('#success').html('');
     });
 </script> -->
+
+<script language="JavaScript">
+
+    var frmvalidator  = new Validator("sentMessage");
+
+    frmvalidator.addValidation("lastname","req","Please provide your last name");
+
+    frmvalidator.addValidation("name","req","Please provide your first name");
+
+    frmvalidator.addValidation("email","req","Please provide your email");
+
+    frmvalidator.addValidation("object", "req", "Please provide the subject");
+
+    frmvalidator.addValidation("email","email",
+
+    "Please enter a valid email address");
+
+</script>
+
 </body>
 </html>

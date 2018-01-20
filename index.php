@@ -129,13 +129,17 @@
     <div class="container">
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
+                </button>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 center">
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img src="<?php echo get_template_directory_uri();?>/images/arrows.png" class="img-fluid"></button>
+                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
+                </button>
             </div>
         </div>
     </div>
@@ -146,9 +150,10 @@
     <div class="container">
         <div class="row center">
             <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
-                    <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img src="<?php echo get_template_directory_uri();?>/images/arrows.png"></button>
+                <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
+            </div>
         </div>
-    </div>
     </div>
     <h2 class="center">Véhicules d'occasions</h2>
     <br>
@@ -161,7 +166,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -180,7 +186,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -206,7 +213,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -225,7 +233,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -251,7 +260,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -270,7 +280,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="rond-gris">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png" class="img-fluid">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/ford_voiture_16.png"
+                                             class="img-fluid">
                                         <h3>Les sous-traitants</h3>
                                     </div>
 
@@ -291,14 +302,18 @@
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"><img src="<?php echo get_template_directory_uri()?>/images/arrows_left.png" class="arrow_slider"> </span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"><img
+                        src="<?php echo get_template_directory_uri() ?>/images/arrows_left.png"
+                        class="arrow_slider"> </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"><img src="<?php echo get_template_directory_uri()?>/images/arrows.png" class="arrow_slider"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"><img
+                        src="<?php echo get_template_directory_uri() ?>/images/arrows.png" class="arrow_slider"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div></section>
+    </div>
+</section>
 
 <!-- ************** VEHICULES PROPRES **************** -->
 
@@ -344,53 +359,18 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
-                <form action="send_form_email.php" method="post" name="sentMessage" id="contactForm" novalidate="novalidate">
-                    <div class="form-group">
-                        <label for="lastname">Nom</label>
-                        <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="emailHelp"
-                               placeholder="Votre nom">
 
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Prénom</label>
-                        <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp"
-                               placeholder="Votre prénom">
+                <?php
+                echo do_shortcode('[contact-form-7 id="3" title="Contact form 1"]'); ?>
 
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Adresse mail</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
-                               placeholder="Votre adresse mail">
-                        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse
-                            mail.
-                        </small>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="object">Objet</label>
-                        <input type="text" class="form-control" name="object" id="object" aria-describedby="emailHelp"
-                               placeholder="Objet">
-
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                    </div>
-
-                    <div id="success"></div>
-
-                    <div id="centerbutton">
-                        <button type="submit" id="sendMessageButton" value="Submit" class="btn btnsubmit">Envoyer</button>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
 </section>
 
 
-<?php get_footer();?>
+<?php get_footer(); ?>
 
 
 

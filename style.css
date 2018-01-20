@@ -427,10 +427,22 @@
     color: rgb(234, 133, 57);
 }
 
-.btnsubmit {
+#btnsubmit {
     background-color: rgb(234, 133, 57);
     border-radius: 300%;
     color: white;
+
+}
+
+input[type="submit"]
+{
+    background-color: rgb(234, 133, 57);
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: none;
 
 }
 
