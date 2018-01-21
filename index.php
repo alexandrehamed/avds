@@ -226,7 +226,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-6 mx-auto" id="vproprediv">
+            <div class="col-lg-7 col-md-8 mx-auto" id="vproprediv">
                 <div class="col-12">
                     <h2>Véhicules propres</h2>
                     <p>Faites un geste pour l’environnement et
