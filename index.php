@@ -267,9 +267,12 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 " id="googlemapdiv">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.5767039179786!2d2.170982215592226!3d48.980581679299625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e660e01fc47415%3A0x4472d885dfa7bdc!2s1+Rue+Jean+Lefebvre%2C+95530+La+Frette-sur-Seine!5e0!3m2!1sfr!2sfr!4v1516207627602"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        id="googlemap" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div id="googlemapdiv2">
+                    <a href="https://www.google.com/maps/place/1+Rue+Jean+Lefebvre,+95530+La+Frette-sur-Seine/@48.9802533,2.1726046,16.21z/data=!4m5!3m4!1s0x47e660e01ff534c3:0xd718022d7fe9b36a!8m2!3d48.9806328!4d2.1730618?hl=fr-FR">Cliquez ici pour voir le plan sur Google Maps</a>
+                </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
