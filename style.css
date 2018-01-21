@@ -35,6 +35,11 @@
     margin-bottom: 4px;
 }
 
+#logo-responsive img{
+    height: 50px;
+    width: auto;
+}
+
 @media screen and (max-width: 962px) {
     #navbar_custom .full-nav {
         display: none;
@@ -50,8 +55,10 @@
 #section1 {
     background-image: url("images/bg1.png");
     background-position: center;
-    padding-top: 250px;
-    padding-bottom: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:150px;
+    padding-bottom: 100px;
 }
 
 @media screen and (max-width: 2400px) {
@@ -74,13 +81,6 @@
         font-size: 32px;
     }
 
-    #section1button {
-        border-radius: 100px;
-        background-color: rgb(94, 94, 94);
-        color: rgb(234, 133, 57);
-margin-top: 20px;
-
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -107,13 +107,7 @@ margin-top: 20px;
         margin-right: 275px !important;
     }
 
-    #section1button {
-        border-radius: 100px;
-        background-color: rgb(94, 94, 94);
-        color: rgb(234, 133, 57);
-        margin-top: 20px;
 
-    }
 }
 
 
@@ -247,7 +241,7 @@ margin-top: 20px;
 
 @media screen and (max-width: 770px){
     #partenaires {
-        padding-bottom: 150px;
+        padding-bottom: 250px;
     }
 
 }
@@ -261,25 +255,26 @@ margin-top: 20px;
     background-size: cover;
 }
 
-#vehicules button {
-    background-color: #4c4a4a;
-    color: #ee883c;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+#vehicules {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background-image: url("images/s4.png");
+    background-size: cover;
+}
+
+#vehicules button{
+    background-color: #4c4a4a  ;
     border: solid 1px #4c4a4a;
     border-radius: 50px;
     font-size: 30px;
     margin-bottom: 50px;
 
 }
-
-.occas {
+.occas{
     color: #ee883c !important;
-}
 
-.propre {
+}
+.propre{
     color: #3CC5EE !important;
     padding-left: 30px;
 }
@@ -292,6 +287,22 @@ margin-top: 20px;
 
     height: 60px;
     width: auto;
+}
+
+@media (min-width: 0px) and (max-width: 500px){
+    #vehicules button{
+        background-color: #4c4a4a  ;
+        border: solid 1px #4c4a4a;
+        border-radius: 50px;
+        font-size: 25px;
+        margin-bottom: 50px;
+
+    }
+    #vehicules img {
+
+        height: 40px;
+        width: auto;
+    }
 }
 
 /*slider*/
@@ -331,7 +342,6 @@ margin-top: 20px;
 #btn_cars button {
     background-color: #4c4a4a;
     color: #ee883c;
-    border: solid 1px #4c4a4a;
     border-radius: 25px;
     font-size: 15px;
     padding-top: 10px;
@@ -340,6 +350,8 @@ margin-top: 20px;
     padding-right: 30px;
     margin-bottom: 10px;
 }
+
+
 
 #btn_cars img {
     height: 30px;
@@ -366,7 +378,7 @@ margin-top: 20px;
 }
 
 #vproprediv {
-    background-color: lightgray;
+    background-color: rgba(201,201,201,0.7);
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 40px;
@@ -386,6 +398,7 @@ margin-top: 20px;
 }
 
 #vpropresec button {
+    border: so;
     color: rgb(60, 197, 238);
     background-color: gray;
     border-radius: 100px;
@@ -496,6 +509,8 @@ input[type="submit"] {
     }
 
 }
+
+
 
 /***************** FOOTER ******************/
 footer {
