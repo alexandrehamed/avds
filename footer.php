@@ -32,7 +32,32 @@
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/2353d4322c.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(".business").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 2000);
+    });
 
+    $(".partners").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#partenaires").offset().top
+        }, 2000);
+    });
+
+    $(".car").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#cars").offset().top
+        }, 2000);
+    });
+
+    $(".mail").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 2000);
+    });
+</script>
 
 </body>
 </html>

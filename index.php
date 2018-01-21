@@ -16,9 +16,11 @@
 
         <div class="container" style="margin-top: 200px">
             <div class="row center">
-                <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
-                    <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+                <div class="col-lg-2 offset-lg-10 col-12" id="btn_cars">
+                    <a href="http://pros.lacentrale.fr/C043313/cat-AUTO/" target="_blank">
+                    <button type="button" class="btn" id="">Plus de véhicules &nbsp;<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -36,12 +38,10 @@
                 <div class="col-lg-5 col-md-8 mx-auto" id="about_texte">
                     <h3 class="center"><strong>Qui sommes nous ?</strong></h3>
                     <br>
-                    <p style="text-align: justify">Quapropter a natura mihi videtur potius quam ab indigentia orta
-                        amicitia, applicatione magis animi cum quodam sensu amandi quam cogitatione quantum illa res
-                        utilitatis esset habitura. Quod quidem quale sit, etiam in bestiis quibusdam animadverti potest,
-                        quae ex se natos ita amant ad quoddam tempus et ab eis ita amantur ut facile earum sensus
-                        appareat. Quod in homine multo est evidentius, primum ex ea caritate quae est inter natos et
-                        parentes, quae dirimi nisi detestabili scelere non potest; </p>
+                    <p style="text-align: justify">Automobile du Val de Seine vous propose des véhicules d'occasions dont une
+                        gamme de véhicule propres. Toutes marques, ils sont également révisés et dotés
+                        d'une garantie européenne de 6 à 24 mois. Nous assurons l'achat et la reprise de
+                        votre ancien véhicule aux conditions Argus.</p>
                 </div>
 
             </div>
@@ -130,21 +130,22 @@
     <div class="container">
         <div class="row">
             <div class="col-12 center">
+                <a href="http://pros.lacentrale.fr/C043313/cat-AUTO/" target="_blank">
 
-                <button type="button" class="btn btn-secondary btn_vehicule occas">Véhicules d'occasion &nbsp &nbsp<img
+                <button type="button" class="btn  btn_vehicule occas">Véhicules d'occasion &nbsp &nbsp<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
                 </button>
-
+                </a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 center">
-
-                <button type="button" class="btn btn-secondary btn_vehicule propre">Véhicules propre &nbsp &nbsp<img
+                <a href="http://pros.lacentrale.fr/C043313/cat-AUTO/" target="_blank">
+                <button type="button" class="btn btn_vehicule propre">Véhicules propre &nbsp &nbsp<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
                 </button>
-
+                </a>
             </div>
         </div>
     </div>
@@ -154,9 +155,12 @@
 <section id="cars">
     <div class="container">
         <div class="row center">
-            <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
-                <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+            <div class="col-lg-2 offset-lg-10 col-12" id="btn_cars">
+                <a href="http://pros.lacentrale.fr/C043313/cat-AUTO/" target="_blank">
+
+                <button type="button" class="btn " id="">Plus de véhicules &nbsp;<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
+                </a>
             </div>
         </div>
     </div>
@@ -176,7 +180,7 @@
                     } ?>">
                         <div class="container">
                             <div class="row center">
-                                <div class="col-md-10 offset-1">
+                                <div class="col-md-10 offset-md-1">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <?php
@@ -188,7 +192,7 @@
                                             <h3><?php the_title() ?></h3>
                                         </div>
                                         <div class="col-lg-6" style="text-align: justify">
-                                            <div class="col-10 offset-2 info">
+                                            <div class="col-10 offset-md-2 info">
                                                 <p>
                                                     <strong>Année </strong>: <?php the_field('annee_du_vehicule', get_the_ID()) ?>
                                                 </p>
@@ -231,9 +235,12 @@
 <section id="vpropresec">
     <div class="container">
         <div class="row center">
-            <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
-                <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+            <div class="col-lg-2 offset-lg-10 col-12" id="btn_cars">
+                <a href="http://pros.lacentrale.fr/C043313/cat-AUTO/" target="_blank">
+
+                <button type="button" class="btn" id="">Plus de véhicules &nbsp;<img
                         src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
+                </a>
             </div>
         </div>
     </div>
@@ -267,7 +274,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.5767039179786!2d2.170982215592226!3d48.980581679299625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e660e01fc47415%3A0x4472d885dfa7bdc!2s1+Rue+Jean+Lefebvre%2C+95530+La+Frette-sur-Seine!5e0!3m2!1sfr!2sfr!4v1516207627602"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                         height="450" width="600" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 offset-lg-2" id="form1">
                 <h1>Nous contacter</h1>
