@@ -398,7 +398,7 @@
 }
 
 #vpropresec button {
-    border: so;
+
     color: rgb(60, 197, 238);
     background-color: gray;
     border-radius: 100px;
@@ -467,12 +467,45 @@ input[type="submit"] {
 
 }
 
+#googlemap {
+    width: 600px;
+    height: 400px;
+    padding-top: 30px;
+}
+#googlemapdiv{
+    text-align: center;
+}
 
+#googlemapdiv2{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 25px;
+
+}
+@media only screen and (max-width: 700px)  {
+
+    #googlemap {
+        width: 300px;
+        height: 250px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left:40px ;
+
+
+    }
+
+
+
+}
+
+#form1 {
+    text-align: center;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     #form1 {
-        padding-left: 150px;
+        padding-left: 80px;
     }
 
 }
