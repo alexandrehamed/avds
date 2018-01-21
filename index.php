@@ -14,10 +14,14 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="col-md-3  ml-auto col-xs-12 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1 mx-auto " id="buttondiv">
+
+
                     <button type="button" id="section1button" class="btn btn-secondary">Tous nos véhicules</button>
+
+
                 </div>
             </div>
         </div>
@@ -150,14 +154,14 @@
 </section>
 
 
-
 <section id="cars">
     <div class="container">
         <div class="row center">
             <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
-                    <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img src="<?php echo get_template_directory_uri();?>/images/arrows.png"></button>
+                <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
+            </div>
         </div>
-    </div>
     </div>
     <h2 class="center">Véhicules d'occasions</h2>
     <br>
@@ -165,39 +169,47 @@
         <div class="carousel-inner">
             <?php
             $active = 0;
-            $query = new WP_Query( array( 'post_type' => 'voitures', 'post_per_page'=>2, ) );
-            if ( $query->have_posts() ) : ?>
-            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+            $query  = new WP_Query(array('post_type' => 'voitures', 'post_per_page' => 2,));
+            if ($query->have_posts()) : ?>
+                <?php while ($query->have_posts()) : $query->the_post(); ?>
 
-                <div class="carousel-item <?php if ($active == 0){echo "active"; $active=1;} ?>">
-                    <div class="container">
-                        <div class="row center">
-                            <div class="col-md-10 offset-1">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <?php
-                                        $image=get_field('image_du_vehicule', get_the_ID());
-                                        ?>
-                                        <div class="img_voiture">
-                                        <img src="<?php echo $image["url"]?>" class="">
+                    <div class="carousel-item <?php if ($active == 0) {
+                        echo "active";
+                        $active = 1;
+                    } ?>">
+                        <div class="container">
+                            <div class="row center">
+                                <div class="col-md-10 offset-1">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <?php
+                                            $image = get_field('image_du_vehicule', get_the_ID());
+                                            ?>
+                                            <div class="img_voiture">
+                                                <img src="<?php echo $image["url"] ?>" class="">
+                                            </div>
+                                            <h3><?php the_title() ?></h3>
                                         </div>
-                                        <h3><?php the_title()?></h3>
-                                    </div>
-                                    <div class="col-6" style="text-align: justify">
-                                        <div class="col-10 offset-2 info">
-                                            <p><strong>Année </strong>: <?php the_field('annee_du_vehicule',get_the_ID())?></p>
-                                            <p><strong> Kilométrage </strong>: <?php the_field('kilometrage',get_the_ID()) ?></p>
-                                            <p><strong> Prix </strong>: <?php the_field('prix',get_the_ID()) ?></p>
-                                        </div>
+                                        <div class="col-6" style="text-align: justify">
+                                            <div class="col-10 offset-2 info">
+                                                <p>
+                                                    <strong>Année </strong>: <?php the_field('annee_du_vehicule', get_the_ID()) ?>
+                                                </p>
+                                                <p><strong>
+                                                        Kilométrage </strong>: <?php the_field('kilometrage', get_the_ID()) ?>
+                                                </p>
+                                                <p><strong> Prix </strong>: <?php the_field('prix', get_the_ID()) ?></p>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <?php endwhile; wp_reset_postdata(); ?>
+                <?php endwhile;
+                wp_reset_postdata(); ?>
                 <!-- show pagination here -->
             <?php else : ?>
                 <!-- show 404 error here -->
@@ -205,14 +217,18 @@
 
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"><img src="<?php echo get_template_directory_uri()?>/images/arrows_left.png" class="arrow_slider"> </span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"><img
+                        src="<?php echo get_template_directory_uri() ?>/images/arrows_left.png"
+                        class="arrow_slider"> </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"><img src="<?php echo get_template_directory_uri()?>/images/arrows.png" class="arrow_slider"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"><img
+                        src="<?php echo get_template_directory_uri() ?>/images/arrows.png" class="arrow_slider"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div></section>
+    </div>
+</section>
 <!-- ************** VEHICULES PROPRES **************** -->
 
 <section id="vpropresec">
@@ -226,7 +242,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-6 mx-auto" id="vproprediv">
+            <div class="col-lg-7 col-md-8 mx-auto" id="vproprediv">
                 <div class="col-12">
                     <h2>Véhicules propres</h2>
                     <p>Faites un geste pour l’environnement et
@@ -259,7 +275,6 @@
                 <h1>Nous contacter</h1>
                 <?php
                 echo do_shortcode('[contact-form-7 id="3" title="Contact form 1"]'); ?>
-
 
 
             </div>
