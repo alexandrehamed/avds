@@ -16,12 +16,12 @@
 <nav id="navbar_custom">
 <div class="container-fluid">
     <div class="row full-nav">
-        <div class="col-1 center"><a href="#"><p>Ici logo</p></a></div>
+        <div class="col-1 center"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="img-fluid"></a></div>
         <div class="col-2 offset-md-1 center"><a href="#"><p>L'entreprise</p></a></div>
         <div class="col-2 center"><a href="#"><p>Nos partenaires</p></a></div>
         <div class="col-2 center"><a href="#"><p>Nos véhicules</p></a> </div>
         <div class="col-2 center"><a href="#"><p>Nous contacter</p></a></div>
-        <div class="col-1 offset-md-1 center"><a href="#"><i class="fa fa-object fa-2x" aria-hidden="true" style="color: white"></i></a> </div>
+        <div class="col-1 offset-md-1 center"><a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true" style="color: white"></i></a> </div>
     </div>
     <div class="row responsive-nav ">
         <div class="pos-f-t">
@@ -29,13 +29,16 @@
                 <div class="p-4 center">
                     <li><a href="#"><p>L'entreprise</p></a></li>
                     <li><a href="#"><p>Nos partenaires</p></a></li>
-                    <li<a href="#"><p>Nos véhicules</p></a>></li>
+                    <li<a href="#"><p>Nos véhicules</p></a></li>
                     <li><a href="#"><p>Nous contacter</p></a></li>
-                    <li><a href="#"><i class="fa fa-object fa-2x" aria-hidden="true" style="color: white"></i></a></li>
+                    <li><a href="tel:+3365739520"><i class="fa fa-phone fa-2x" aria-hidden="true" style="color: white"></i></a></li>
 
                 </div>
             </div>
                 <nav class="navbar ">
+                    <div class="mr-auto " id="logo-responsive">
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="img-fluid"></a>
+                    </div>
                     <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                     </button>

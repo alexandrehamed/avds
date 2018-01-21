@@ -14,14 +14,11 @@
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-1 mx-auto " id="buttondiv">
-
-
-                    <button type="button" id="section1button" class="btn btn-secondary">Tous nos véhicules</button>
-
-
+        <div class="container" style="margin-top: 200px">
+            <div class="row center">
+                <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
+                    <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+                            src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
                 </div>
             </div>
         </div>
@@ -57,13 +54,13 @@
                 <div id="container_icone">
                     <div class="row center">
 
-                        <div class="col-md-2 col-2 offset-md-2 offset-sm-1"><img
+                        <div class="col-md-2 col-12 offset-md-2 offset-sm-1"><img
                                     src="<?php echo get_template_directory_uri(); ?>/images/icone1.png" alt=""><br>
                             <p>Sécurité</p></div>
-                        <div class="col-md-2 col-2 offset-md-1 offset-sm-2"><img
+                        <div class="col-md-2 col-12 offset-md-1 offset-sm-2"><img
                                     src="<?php echo get_template_directory_uri(); ?>/images/icone2.png" class="" alt=""><br>
                             <p>Professionnalisme</p></div>
-                        <div class="col-md-2 col-2  offset-md-1 offset-sm-2"><img
+                        <div class="col-md-2 col-12  offset-md-1 offset-sm-2"><img
                                     src="<?php echo get_template_directory_uri(); ?>/images/icone3.png" class="" alt=""><br>
                             <p>Qualité</p></div>
 
@@ -134,7 +131,7 @@
         <div class="row">
             <div class="col-12 center">
 
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                <button type="button" class="btn btn-secondary btn_vehicule occas">Véhicules d'occasion &nbsp &nbsp<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
                 </button>
 
@@ -144,7 +141,7 @@
         <div class="row">
             <div class="col-12 center">
 
-                <button type="button" class="btn btn-secondary btn_vehicule">Véhicules d'occasion &nbsp &nbsp<img
+                <button type="button" class="btn btn-secondary btn_vehicule propre">Véhicules propre &nbsp &nbsp<img
                             src="<?php echo get_template_directory_uri(); ?>/images/arrows.png" class="img-fluid">
                 </button>
 
@@ -181,7 +178,7 @@
                             <div class="row center">
                                 <div class="col-md-10 offset-1">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6">
                                             <?php
                                             $image = get_field('image_du_vehicule', get_the_ID());
                                             ?>
@@ -190,7 +187,7 @@
                                             </div>
                                             <h3><?php the_title() ?></h3>
                                         </div>
-                                        <div class="col-6" style="text-align: justify">
+                                        <div class="col-lg-6" style="text-align: justify">
                                             <div class="col-10 offset-2 info">
                                                 <p>
                                                     <strong>Année </strong>: <?php the_field('annee_du_vehicule', get_the_ID()) ?>
@@ -232,10 +229,11 @@
 <!-- ************** VEHICULES PROPRES **************** -->
 
 <section id="vpropresec">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 ml-auto">
-                <button> Acheter un véhicule</button>
+    <div class="container">
+        <div class="row center">
+            <div class="col-md-2 offset-md-10 col-12" id="btn_cars">
+                <button type="button" class="btn btn-success " id="">Plus de véhicules &nbsp;<img
+                        src="<?php echo get_template_directory_uri(); ?>/images/arrows.png"></button>
             </div>
         </div>
     </div>
