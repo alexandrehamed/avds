@@ -1,3 +1,10 @@
+@media screen and (max-width: 435px){
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+}
 
 .center {
     text-align: center
