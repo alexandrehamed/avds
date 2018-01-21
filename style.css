@@ -45,70 +45,6 @@
 
 }
 
-/*Qui sommes nous*/
-#about {
-    background-color: black;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-image: url("images/s2.png");
-}
-
-#about_texte {
-    background-color: #D6D5D5;
-    background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-#about_texte p {
-    color: white;
-}
-
-
-
-/*Qui sommes nous*/
-#about {
-    background-color: black;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#about_texte {
-    background-color: #D6D5D5;
-    background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-#about_texte p {
-    color: white;
-}
-
-#about_texte h3 {
-    color: #ee883c;
-}
-
-#container_icone {
-    margin-top: 30px;
-    padding-top: 50px;
-    width: 100%;
-
-}
-
-#garantie {
-    color: white;
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-#container_icone p {
-    color: white;
-}
-
 /*************** SECTION ACCUEIL **************/
 #section1 {
     background-image: url("images/bg1.png");
@@ -141,9 +77,89 @@
         border-radius: 100px;
         background-color: rgb(94, 94, 94);
         color: rgb(234, 133, 57);
+margin-top: 20px;
 
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    #section1h1h3 {
+        background-color: rgba(211, 211, 211, 0.8);
+        border-radius: 100px;
+        padding: 15px;
+
+    }
+
+    #section1 h1 {
+        font-size: 35px;
+        color: rgb(234, 133, 57)
+    }
+
+    #section1 h3 {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #buttondiv {
+        margin-right: 275px !important;
+    }
+
+    #section1button {
+        border-radius: 100px;
+        background-color: rgb(94, 94, 94);
+        color: rgb(234, 133, 57);
+        margin-top: 20px;
+
+    }
+}
+
+
+/*Qui sommes nous*/
+#about {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("images/s2.png");
+}
+
+#about_texte {
+    background-color: #D6D5D5;
+    background: rgba(146, 149, 155, 0.5) /* 70% opaque red */;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#about_texte p {
+    color: white;
+}
+
+
+
+#about_texte h3 {
+    color: #ee883c;
+}
+
+#container_icone {
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+#garantie {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#container_icone p {
+    color: white;
+}
+
 
 #container_icone img {
     padding-bottom: 20px;
@@ -228,6 +244,12 @@
 
 }
 
+@media screen and (max-width: 770px){
+    #partenaires {
+        padding-bottom: 150px;
+    }
+
+}
 
 /*véhicule btn*/
 
